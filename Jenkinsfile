@@ -1,7 +1,7 @@
 node {
     withCredentials([
         string(credentialsId: 'Secret_KeyId', variable: 'AWS_ACCESS_KEY_ID'),
-        string(credentialsId: 'Secret_Key', variable: 'AWS_SECRET_ACCESS_KEY')
+        string(credentialsId: 'Access_Key', variable: 'AWS_SECRET_ACCESS_KEY')
     ]){
 
     
