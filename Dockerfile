@@ -1,4 +1,5 @@
 FROM nginx:latest
 COPY ./index.html /usr/share/nginx/html/index.html
-COPY ./profile.jpeg //usr/share/nginx/html/
+COPY ./images //usr/share/nginx/html/images
+COPY ./assets //usr/share/nginx/html/assets
 EXPOSE 80
